@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <div className="top">
         <div className="top-left">
-          <img src={trophy} className="trophy" />
+          <img src={trophy} className="trophy" alt="trophy"/>
         </div>
         <div className="top-right">
-          <img src={logo} className="logo" />
+          <img src={logo} className="logo" alt="trophy" />
           <div className="text">
             <b>
               C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
@@ -34,7 +34,7 @@ function App() {
                 smart pumps with IoT enabled control panel.{" "}
               </li>
             </ul>
-            <img src={highlight} className="highlight" />
+            <img src={highlight} className="highlight" alt="trophy" />
             <p>
               Government of India has awarded the "National Energy Conservation
               Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I.
@@ -50,7 +50,7 @@ function App() {
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.
         </p>
-        <img src={assests} className="assests" />
+        <img src={assests} className="assests" alt="trophy" />
         <p>
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
           Solar Systems - Motors
@@ -76,7 +76,7 @@ function App() {
           <p>www.facebook.com/cripumps</p>
         </div>
         <div className="call">
-          <img src={web} className="web" />
+          <img src={web} className="web" alt="trophy" />
           <p>www.crigroups.com</p>
         </div>
       </footer>
